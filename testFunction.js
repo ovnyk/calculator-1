@@ -22,3 +22,15 @@ function divide () {
     return z
 }
 
+var sum = add(11, 22)
+var sub = subtend(33,44)
+var mul = multiply(55,66)
+var div = divide(12, 43)
+
+if (sum > mul) {
+    console.log(true)
+} else if (sum == mul) {
+    console.log("equals")
+} else {
+    console.log("false")
+}
